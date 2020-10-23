@@ -1,6 +1,6 @@
 # Shopify Theme Starter
 
-A ready to use boilerplate for getting started with building a Shopify Theme from scratch
+A ready to use boilerplate for getting started with building a **Shopify Theme** from scratch include **Webpack** module bundler and **Tailwind CSS**
 
 ## Get started
 
