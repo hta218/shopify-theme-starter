@@ -1,3 +1,5 @@
+import '../css/app.scss'
+
 console.log('Buzz')
 
 const foo = () => {

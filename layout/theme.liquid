@@ -33,7 +33,7 @@
   {% include 'social-meta-tags' %}
   {% include 'style-tags', layout: 'theme' %}
   {% include 'css-variables' %}
-
+	{{ 'tailwind.css' | asset_url | stylesheet_tag }}
   <script>
     document.documentElement.className = document.documentElement.className.replace('no-js', '');
 
