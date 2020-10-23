@@ -4,7 +4,7 @@
   "description": "A boiler plate for getting started with building a Shopify theme from scratch",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --progress --colors --watch",
+    "start": "webpack --progress --color --output-path --watch",
     "build": "webpack --config webpack.config.js",
     "theme-watch": "theme watch --allow-live"
   },
@@ -16,7 +16,6 @@
     "@babel/preset-env": "^7.12.1",
     "babel-loader": "^8.1.0",
     "webpack": "^5.2.0",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-cli": "^4.1.0"
   }
 }
