@@ -22,6 +22,7 @@ module.exports = {
 			{
 				test: /\.(sa|sc|c)ss$/,
 				use: [
+					{ loader: MiniCssExtractPlugin.loader },
 					{ loader: 'css-loader' },
 					{ loader: 'postcss-loader' },
 					{
@@ -36,7 +37,9 @@ module.exports = {
 		]
 	},
 	plugins: [
-
+		new MiniCssExtractPlugin({
+			filename: "app.css"
+		})
 	],
 	mode: 'development'
 }
