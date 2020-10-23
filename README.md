@@ -42,6 +42,8 @@ You’ll return to the app detail page. Your new, unique access credentials are 
 
 - **Duplicate** an existing theme from your store **theme admin** (rename it if you want)
 
+![Imgur](https://i.imgur.com/2fSgk0R.png?1)
+
 - Get the **theme's id** by click `Actions/Edit Code`, the last number in the **URL** now is your **theme's id**. Copy it!
 
 - In the `shopify-theme-starter` directory, rename `config.example.yml` to `config.yml`
