@@ -40,15 +40,15 @@ You’ll return to the app detail page. Your new, unique access credentials are 
 
 ## Upload theme to Shopify
 
-- Duplicate an existing theme from your store theme admin (rename it if you want)
+- **Duplicate** an existing theme from your store **theme admin** (rename it if you want)
 
-- Get the theme's Id by click `Actions/Edit Code`, the last number in the URL now is your theme's id. Copy it!
+- Get the **theme's id** by click `Actions/Edit Code`, the last number in the **URL** now is your **theme's id**. Copy it!
 
 - In the `shopify-theme-starter` directory, rename `config.example.yml` to `config.yml`
 
 - Update all configs with your **store**, **theme_id** (should stay in double qoute like this `"123123123"`) and **password** is the **Shopify Private App**'s password that you've created in the first step
 
-- Upload your local theme to Shopify
+- Upload your local theme to **Shopify**
   ```
   theme deploy
   ```
@@ -58,7 +58,12 @@ You’ll return to the app detail page. Your new, unique access credentials are 
   theme publish
   ```
 
-Now go to [your-store].myshopify.com, you should see content from this starter
+- Open live theme (store's preview)
+	```
+	theme open
+	```
+
+Now you should see content from this starter.
 
 ## Start the developement server
 
@@ -76,6 +81,17 @@ Now keep in mind that you will need **2 seperated terminal**
   npm run dev
   ```
 
-Now you're ready to build your own Shopify's theme from here.
+You're ready to build your own **Shopify's theme** from here.
+
+## More References
+
+- [Liquid Cheat Sheet](http://cheat.markdunkley.com/)
+- [Shopify Liquid Documentations](https://shopify.github.io/liquid/)
+- [Shopify Cheat Sheet](https://www.shopify.com/partners/shopify-cheat-sheet)
+- [My notes when learning to develop Shopify's theme](/recap.md)
+
+## License
+
+Copyright © 2020 - Made by Leo @ [https://leohuynh.dev](https://leohuynh.dev)
 
 
