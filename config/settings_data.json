@@ -1,5 +1,46 @@
 {
-  "current": "Default",
+  "current": {
+    "sections": {
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-list-0": {
+            "type": "collection",
+            "settings": {}
+          },
+          "collection-list-1": {
+            "type": "collection",
+            "settings": {}
+          },
+          "collection-list-2": {
+            "type": "collection",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "collection-list-0",
+          "collection-list-1",
+          "collection-list-2"
+        ],
+        "settings": {}
+      },
+      "featured-collection": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "frontpage"
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "settings": {}
+      }
+    },
+    "content_for_index": [
+      "collection-list",
+      "featured-collection",
+      "featured-product"
+    ]
+  },
   "presets": {
     "Default": {
       "sections": {
@@ -7,20 +48,24 @@
           "type": "collection-list",
           "blocks": {
             "collection-list-0": {
-              "type": "collection"
+              "type": "collection",
+              "settings": {}
             },
             "collection-list-1": {
-              "type": "collection"
+              "type": "collection",
+              "settings": {}
             },
             "collection-list-2": {
-              "type": "collection"
+              "type": "collection",
+              "settings": {}
             }
           },
           "block_order": [
             "collection-list-0",
             "collection-list-1",
             "collection-list-2"
-          ]
+          ],
+          "settings": {}
         },
         "featured-collection": {
           "type": "featured-collection",
@@ -29,7 +74,8 @@
           }
         },
         "featured-product": {
-          "type": "featured-product"
+          "type": "featured-product",
+          "settings": {}
         }
       },
       "content_for_index": [
