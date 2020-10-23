@@ -78,7 +78,7 @@ Now keep in mind that you will need **2 seperated terminal**
   npm run theme-watch
   ```
 
-- The second one run the following command to watch your dev process in `/src` directory and apply change to your theme
+- The second one run the following command to watch your dev process in `/src` directory, compile your code and put them into `/assets`
   ```
   npm run dev
   ```
