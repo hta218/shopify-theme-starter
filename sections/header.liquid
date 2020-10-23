@@ -96,12 +96,16 @@
     </form>
   </header>
 
-  <nav role="navigation">
-    <ul>
+  <nav role="navigation" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="navbar-nav mr-auto">
       {% for link in linklists[section.settings.menu].links %}
         {% if link.links != blank %}
-          <li>
-            <a href="{{ link.url }}">
+          <li class="nav-item active">
+            <a href="{{ link.url }}" class="nav-link">
               {{ link.title }}
               {% include 'icon-arrow-down' %}
             </a>
@@ -116,8 +120,8 @@
             </ul>
           </li>
         {% else %}
-          <li>
-            <a href="{{ link.url }}">
+          <li class="nav-item active">
+            <a href="{{ link.url }}" class="nav-link">
               {{ link.title }}
             </a>
           </li>

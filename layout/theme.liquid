@@ -50,6 +50,8 @@
   {% include 'script-tags', layout: 'theme' %}
 
   {{ content_for_header }}
+
+  {{ 'app.css' | asset_url | stylesheet_tag }}
 </head>
 
 <body id="{{ page_title | handle }}" class="template-{{ template.name | handle }}">
