@@ -2,8 +2,8 @@
 --watch/
 
 # assets
-assets/app.js
-assets/app.css
+assets/*.js
+assets/*.css
 
 # config
 config.yml
