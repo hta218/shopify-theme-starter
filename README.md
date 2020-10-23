@@ -80,7 +80,7 @@ Now keep in mind that you will need **2 seperated terminal**
 
 - The second one run the following command to watch your dev process in `/src` directory, compile your code and put them into `/assets`
   ```
-  npm run watch
+  npm start
   ```
 
 You're ready to build your own **Shopify's theme** from here.
