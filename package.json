@@ -4,23 +4,19 @@
   "description": "A boiler plate for getting started with building a Shopify theme from scratch",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run development",
-    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "npm run development -- --watch",
-    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "prod": "npm run production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "start": "webpack --progress --colors --watch",
+    "build": "webpack --config webpack.config.js",
     "theme-watch": "theme watch --allow-live"
   },
   "keywords": [],
   "author": "Leo Huynh @ https://leohuynh.dev",
   "license": "ISC",
   "devDependencies": {
-    "cross-env": "^7.0.2",
-    "laravel-mix": "^5.0.7",
-    "resolve-url-loader": "^3.1.0",
-    "sass": "^1.27.0",
-    "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.12"
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.11.0"
   }
 }
