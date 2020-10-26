@@ -71,19 +71,12 @@ Now you should see content from this starter.
 
 - Install dependencies by running `npm install`
 
-Now keep in mind that you will need **2 seperated terminal**
-
-- The first one run the following command to watch directory for changes and update remote theme
-  ```
-  npm run theme-watch
-  ```
-
-- The second one run the following command to watch your dev process in `/src` directory, compile your code and put them into `/assets`
+- Start the development server, it will watch directory for changes, compile your code in `/src` directory, put them into `/assets` and update remote theme
   ```
   npm start
   ```
 
-You're ready to build your own **Shopify's theme** from here.
+Now you're ready to build your own **Shopify's theme** from here.
 
 ## More References
 
