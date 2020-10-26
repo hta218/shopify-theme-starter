@@ -4,7 +4,8 @@
   "description": "A boiler plate for getting started with building a Shopify theme from scratch",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build:css && webpack --progress --color --watch",
+    "start": "concurrently \"npm run dev\" \"npm run theme-watch\"",
+    "dev": "npm run build:css && webpack --progress --color --watch",
     "build": "webpack --config webpack.config.js",
     "build:css": "postcss src/css/tailwind.css -o assets/tailwind.css",
     "theme-watch": "theme watch --allow-live"
@@ -17,6 +18,7 @@
     "@babel/preset-env": "^7.12.1",
     "autoprefixer": "^10.0.1",
     "babel-loader": "^8.1.0",
+    "concurrently": "^5.3.0",
     "css-loader": "^5.0.0",
     "cssnano": "^4.1.10",
     "mini-css-extract-plugin": "^1.1.2",
