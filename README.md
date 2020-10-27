@@ -50,22 +50,10 @@ You’ll return to the app detail page. Your new, unique access credentials are 
 
 - Update all configs with your **store**, **theme_id** (should stay in double qoute like this `"123123123"`) and **password** is the **Shopify Private App**'s password that you've created in the first step
 
-- Upload your local theme to **Shopify**
+- Upload your local theme to **Shopify** and **publish** it
   ```
-  theme deploy
+  npm run deploy
   ```
-
-- Publish it
-  ```
-  theme publish
-  ```
-
-- Open live theme (store's preview)
-	```
-	theme open
-	```
-
-Now you should see content from this starter.
 
 ## Start the developement server
 
@@ -76,7 +64,7 @@ Now you should see content from this starter.
   npm start
   ```
 
-Now you're ready to build your own **Shopify's theme** from here.
+Now you're ready to build your own **Shopify's theme** from here (next time you don't need to **deploy** again, just `npm start`, this theme already **deployed** in the first time you run `npm run deploy`)
 
 ## More References
 
