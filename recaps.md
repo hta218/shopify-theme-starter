@@ -28,3 +28,6 @@
 
 - To create a new template the file name must be `[page-name].[your-template-name].liquid` (ex: `product.featured.liquid`, `page.contact.liquid`)
 
+#### Data
+
+- add `.json` extension to any URL, you will get the data of that page as **JSON**
