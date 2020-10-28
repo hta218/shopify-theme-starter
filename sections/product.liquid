@@ -1,7 +1,13 @@
 <section class="text-gray-700 body-font overflow-hidden">
+  {%- assign current_variant = product.selected_or_first_available_variant -%}
+  {%- assign featured_image = current_variant.featured_image | default: product.featured_image -%}
+
   <div class="container px-5 py-24 mx-auto">
     <div class="lg:w-4/5 mx-auto flex flex-wrap">
-      <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400">
+      <img 
+        alt="ecommerce" 
+        class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" 
+        src="{{ featured_image | img_url: '1024x'}}">
       <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
         <h2 class="text-sm title-font text-gray-500 tracking-widest">{{ product.vendor }}</h2>
         <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">{{ product.title }}</h1>
@@ -72,7 +78,8 @@
           {% endfor %}
         </div>
         <div class="flex">
-          <span class="title-font font-medium text-2xl text-gray-900">$58.00</span>
+          <span class="title-font font-medium text-2xl text-gray-900">{{ current_variant.price | money }}</span>
+          <span class="text-gray-900 line-through ml-3 self-center">{{ current_variant.compare_at_price | money }}</span>
           <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Add To Cart</button>
           <button class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
             <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
