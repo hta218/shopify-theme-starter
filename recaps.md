@@ -24,5 +24,7 @@
 
 #### Templates
 
+- Template show in your **admin/product**, each type of page will have multiple templates in the theme template area
+
 - To create a new template the file name must be `[page-name].[your-template-name].liquid` (ex: `product.featured.liquid`, `page.contact.liquid`)
 
