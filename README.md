@@ -50,47 +50,29 @@ You’ll return to the app detail page. Your new, unique access credentials are 
 
 - Update all configs with your **store**, **theme_id** (should stay in double qoute like this `"123123123"`) and **password** is the **Shopify Private App**'s password that you've created in the first step
 
-- Upload your local theme to **Shopify**
+- Upload your local theme to **Shopify** and **publish** it
   ```
-  theme deploy
+  npm run deploy
   ```
-
-- Publish it
-  ```
-  theme publish
-  ```
-
-- Open live theme (store's preview)
-	```
-	theme open
-	```
-
-Now you should see content from this starter.
 
 ## Start the developement server
 
 - Install dependencies by running `npm install`
 
-Now keep in mind that you will need **2 seperated terminal**
-
-- The first one run the following command to watch directory for changes and update remote theme
-  ```
-  npm run theme-watch
-  ```
-
-- The second one run the following command to watch your dev process in `/src` directory, compile your code and put them into `/assets`
+- Start the development server, it will watch directory for changes, compile your code in `/src` directory, put them into `/assets` and update remote theme
   ```
   npm start
   ```
 
-You're ready to build your own **Shopify's theme** from here.
+Now you're ready to build your own **Shopify's theme** from here (next time you don't need to **deploy** again, just `npm start`, this theme already **deployed** in the first time you run `npm run deploy`)
 
-## More References
+## References
 
 - [Liquid Cheat Sheet](http://cheat.markdunkley.com/)
 - [Shopify Liquid Documentations](https://shopify.github.io/liquid/)
 - [Shopify Cheat Sheet](https://www.shopify.com/partners/shopify-cheat-sheet)
 - [My notes when learning to develop Shopify's theme](/recaps.md)
+- [Shopify for Developers: Free Course](https://www.youtube.com/playlist?list=PLB4AdipoHpxbTycAd8VriLJoROLb3hYmh)
 
 ## License
 

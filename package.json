@@ -4,11 +4,12 @@
   "description": "A boiler plate for getting started with building a Shopify theme from scratch",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run dev\" \"npm run theme-watch\"",
+    "start": "concurrently \"npm run dev\" \"npm run theme-watch\" \"theme open\"",
     "dev": "npm run build:css && webpack --progress --color --watch",
     "build": "webpack --config webpack.config.js",
     "build:css": "postcss src/css/tailwind.css -o assets/tailwind.css",
-    "theme-watch": "theme watch --allow-live"
+    "theme-watch": "theme watch --allow-live",
+    "deploy": "theme deploy --allow-live && theme publish --allow-live"
   },
   "keywords": [],
   "author": "Leo Huynh @ https://leohuynh.dev",
