@@ -66,7 +66,7 @@ You’ll return to the app detail page. Your new, unique access credentials are 
 
 Now you're ready to build your own **Shopify's theme** from here (next time you don't need to **deploy** again, just `npm start`, this theme already **deployed** in the first time you run `npm run deploy`)
 
-## More References
+## References
 
 - [Liquid Cheat Sheet](http://cheat.markdunkley.com/)
 - [Shopify Liquid Documentations](https://shopify.github.io/liquid/)
