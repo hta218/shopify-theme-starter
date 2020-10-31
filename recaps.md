@@ -3,6 +3,8 @@
 #### General
 
 - Theme files may not be stored in subfolders
+- Use `{% section '[section-name]' %}` to require a section
+- Use `{% include '[snippet-name]' %}` to require a snippet
 
 #### Sections
 
