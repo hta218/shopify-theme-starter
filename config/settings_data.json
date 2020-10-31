@@ -1,57 +1,57 @@
 {
   "current": {
     "sections": {
-      "collection-list": {
-        "type": "collection-list",
-        "blocks": {
-          "collection-list-0": {
-            "type": "collection",
-            "settings": {
-              "collection": ""
-            }
-          },
-          "collection-list-1": {
-            "type": "collection",
-            "settings": {
-              "collection": ""
-            }
-          },
-          "collection-list-2": {
-            "type": "collection",
-            "settings": {
-              "collection": ""
-            }
-          }
-        },
-        "block_order": [
-          "collection-list-0",
-          "collection-list-1",
-          "collection-list-2"
-        ],
-        "settings": {
-          "title": "Collection list"
-        }
-      },
-      "featured-collection": {
-        "type": "featured-collection",
-        "settings": {
-          "title": "Featured collection",
-          "collection": "frontpage"
-        }
-      },
-      "featured-product": {
-        "type": "featured-product",
-        "settings": {
-          "product": "",
-          "show_share_buttons": false
-        }
-      },
+      // "collection-list": {
+      //   "type": "collection-list",
+      //   "blocks": {
+      //     "collection-list-0": {
+      //       "type": "collection",
+      //       "settings": {
+      //         "collection": ""
+      //       }
+      //     },
+      //     "collection-list-1": {
+      //       "type": "collection",
+      //       "settings": {
+      //         "collection": ""
+      //       }
+      //     },
+      //     "collection-list-2": {
+      //       "type": "collection",
+      //       "settings": {
+      //         "collection": ""
+      //       }
+      //     }
+      //   },
+      //   "block_order": [
+      //     "collection-list-0",
+      //     "collection-list-1",
+      //     "collection-list-2"
+      //   ],
+      //   "settings": {
+      //     "title": "Collection list"
+      //   }
+      // },
+      // "featured-collection": {
+      //   "type": "featured-collection",
+      //   "settings": {
+      //     "title": "Featured collection",
+      //     "collection": "frontpage"
+      //   }
+      // },
+      // "featured-product": {
+      //   "type": "featured-product",
+      //   "settings": {
+      //     "product": "",
+      //     "show_share_buttons": false
+      //   }
+			// },
+			"slider": {
+				"type": "slider"
+			},
       "header": {
         "type": "header",
         "settings": {
-          "announcement_bar_enabled": true,
-          "announcement_bar_home_page_only": true,
-          "announcement_bar_text": "Announce something here",
           "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_max_width": 290,
           "menu": "main-menu"

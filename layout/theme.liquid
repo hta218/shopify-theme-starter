@@ -58,10 +58,8 @@
 	{% section 'header' %}
 
 	<main role="main" id="MainContent">
-		This is the main content
 		{{ content_for_layout }}
 	</main>
-
 	{% section 'footer' %}
 	{{ 'app.js' | asset_url | script_tag }}
 </body>
