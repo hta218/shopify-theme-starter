@@ -8,6 +8,8 @@
 
 - Section are accessible only for homepage
 
+- Each Section will have an auto-generated wrapper (a `div` tag with `id="shopify-section-[section-name]"` - where `[section-name]` is the file name of `[section-name].liquid` file)
+
 - To add new **section**, create a **folder** with exactly name `sections` (then add `your-section.liquid`)
 
 - Sections can be dynamically added to the theme's home page if they have [presets](https://shopify.dev/tutorials/develop-theme-use-sections#presets) defined in their respective `{% schema %}` tags
