@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm run dev\" \"npm run theme-watch\" \"theme open\"",
-    "dev": "npm run build:css && webpack --progress --color --watch",
-    "build": "webpack --config webpack.config.js",
-    "build:css": "postcss src/css/tailwind.css -o assets/tailwind.css",
+    "dev": "webpack --progress --color --watch",
+    "build": "NODE_ENV=production webpack",
     "theme-watch": "theme watch --allow-live",
     "deploy": "theme deploy --allow-live && theme publish --allow-live"
   },
