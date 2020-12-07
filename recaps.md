@@ -3,8 +3,8 @@
 #### General
 
 - Theme files may not be stored in subfolders
-- Use `{% section '[section-name]' %}` to require a section
-- Use `{% include '[snippet-name]' %}` to require a snippet
+- Use `{% section '[section-name]' %}` to require a section (`[section-name]` is the file name of `[section-name].liquid`)
+- Use `{% include '[snippet-name]' %}` to include a snippet (`[snippet-name]` is the file name of `[snippet-name].liquid`)
 
 #### Sections
 
