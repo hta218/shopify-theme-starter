@@ -4,7 +4,7 @@
   "description": "A boiler plate for getting started with building a Shopify theme from scratch",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run dev\" \"npm run theme-watch\" \"theme open\"",
+    "start": "concurrently \"npm run dev\" \"npm run theme-watch\"",
     "dev": "webpack --progress --color --watch",
     "build": "NODE_ENV=production webpack",
     "theme-watch": "theme watch --allow-live",

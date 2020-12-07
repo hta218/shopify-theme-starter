@@ -54,12 +54,17 @@
 </head>
 
 <body id="{{ page_title | handle }}" class="template-{{ template.name | handle }}">
+	{% comment %}
+	UN-COMMENT THIS AND START BUILDING YOUR OWN THEME!
 	{% section 'header' %}
-
 	<main role="main" id="MainContent">
 		{{ content_for_layout }}
 	</main>
 	{% section 'footer' %}
+	{% endcomment %}
+
+	{% section 'sample-tailwind-section' %}
+
 	{{ 'app.js' | asset_url | script_tag }}
 </body>
 
