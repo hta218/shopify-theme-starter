@@ -1,12 +1,4 @@
 import '../css/app.scss'
+import '../css/tailwind.css'
 
-console.log('Buzz')
-
-const foo = () => {
-	console.log('Hehehe hahaha')
-}
-
-const bar = { a: 1, b: 2 }
-const baz = { ...bar }
-
-foo()
+console.log("Write your theme's script in src/js/app.js")

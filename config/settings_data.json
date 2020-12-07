@@ -1,38 +1,20 @@
 {
   "current": {
     "sections": {
-      "collection-list": {
-        "type": "collection-list",
-        "blocks": {
-          "collection-list-0": {
-            "type": "collection",
-            "settings": {}
-          },
-          "collection-list-1": {
-            "type": "collection",
-            "settings": {}
-          },
-          "collection-list-2": {
-            "type": "collection",
-            "settings": {}
-          }
-        },
-        "block_order": [
-          "collection-list-0",
-          "collection-list-1",
-          "collection-list-2"
-        ],
-        "settings": {}
-      },
-      "featured-collection": {
-        "type": "featured-collection",
+      "header": {
+        "type": "header",
         "settings": {
-          "collection": "frontpage"
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_max_width": 290,
+          "menu": "main-menu"
         }
       },
-      "featured-product": {
-        "type": "featured-product",
-        "settings": {}
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_linklist": "footer",
+          "show_payment_icons": false
+        }
       }
     },
     "content_for_index": [

@@ -34,7 +34,6 @@
 	{% include 'social-meta-tags' %}
 	{% include 'style-tags', layout: 'theme' %}
 	{% include 'css-variables' %}
-	{{ 'tailwind.css' | asset_url | stylesheet_tag }}
 	{{ 'app.css' | asset_url | stylesheet_tag }}
 	<script>
 		document.documentElement.className = document.documentElement.className.replace('no-js', '');
@@ -55,21 +54,17 @@
 </head>
 
 <body id="{{ page_title | handle }}" class="template-{{ template.name | handle }}">
-
-	<h1>This is the theme starter from <a href="https://github.com/hta218/shopify-theme-starter"
-			target="_blank">https://github.com/hta218/shopify-theme-starter</a></h1>
-	<h1>Remove this in <code>layout/theme.liquid</code> and start to build your theme!</h1>
-
-	<a class="in-page-link visually-hidden skip-link"
-		href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
-
+	{% comment %}
+	UN-COMMENT THIS AND START BUILDING YOUR OWN THEME!
 	{% section 'header' %}
-
 	<main role="main" id="MainContent">
 		{{ content_for_layout }}
 	</main>
-
 	{% section 'footer' %}
+	{% endcomment %}
+
+	{% section 'sample-tailwind-section' %}
+
 	{{ 'app.js' | asset_url | script_tag }}
 </body>
 
