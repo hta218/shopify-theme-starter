@@ -71,7 +71,6 @@ Now you're ready to build your own **Shopify's theme** from here (next time you 
 - [Liquid Cheat Sheet](http://cheat.markdunkley.com/)
 - [Shopify Liquid Documentations](https://shopify.github.io/liquid/)
 - [Shopify Cheat Sheet](https://www.shopify.com/partners/shopify-cheat-sheet)
-- [My notes when learning to develop Shopify's theme](/recaps.md)
 - [Shopify for Developers: Free Course](https://www.youtube.com/playlist?list=PLB4AdipoHpxbTycAd8VriLJoROLb3hYmh)
 
 ## License
